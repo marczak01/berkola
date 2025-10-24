@@ -1,0 +1,577 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berkola language 🇵🇱</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__flags">
+        <span><a href="/pl/">🇵🇱</a></span>
+        <span><a href="/en/">🇬🇧</a></span>
+      </div>
+      <span class="nav__logo"
+        ><a href=""><img src="{% static 'images/berkola_logo.png' %}" alt="" /></a
+      ></span>
+      <ul class="nav__list">
+        <li><a href="#about">{% trans "About us" %} </a></li>
+        <li><a href="#features">{% trans "Teaching methods" %} </a></li>
+        <li><a href="#team">{% trans "Our team" %}</a></li>
+        <li><a href="#price">{% trans "Pricing" %}</a></li>
+        <!-- <li><a href="#">Opinie</a></li> -->
+      </ul>
+      <a class="btn nav-btn" href="#contact">{% trans "Contact" %}</a>
+    </nav>
+    <header class="header">
+      <div class="header-circle"></div>
+      <div class="header__left">
+        <div class="header__left__text">
+          <h1>
+            BERKOLA<br />
+            <span class="header__left__text-bottom">LANGUAGE</span>
+            <span class="header__left__text-border"></span>
+          </h1>
+          <p>
+            {% blocktrans %}We are an online language school specializing in Polish as a foreign language.{% endblocktrans %}
+            <span>{% blocktrans %}Master the Polish language with professional teachers. Join our interactive online lessons and discover Polish culture while improving your communication skills.{% endblocktrans %}</span>
+            <span>{% blocktrans %}We also offer English lessons for Poles.{% endblocktrans %}</span>
+          </p>
+          <a href="#" class="btn">{% trans "Learn more" %} ↓</a>
+        </div>
+      </div>
+      <div class="header__right"></div>
+    </header>
+    <section id="about" class="about">
+      <div class="about__left">
+        <div class="about__left-img">
+          <img class="about__left-img-photo" src="{% static 'images/about.jpg' %}" />
+          <img class="about__left-img-shape" src="{% static 'images/aboutshape.png' %}" />
+        </div>
+      </div>
+      <div class="about__right">
+        <h2>{% trans "About us" %}</h2>
+        <p class="paragraph">
+          {% blocktrans %}We are a modern online language school that combines a passion for teaching with experience and proven teaching methods.<br /><br />We teach English to Poles and Polish to foreigners – of all ages and at all levels. {% endblocktrans %}<br />
+        </p>
+        <p class="paragraph paragraph-about">
+          {% blocktrans %}Our goal is effective, engaging, and practical language learning — without stress or boredom.{% endblocktrans %}
+        </p>
+      </div>
+    </section>
+    <section class="who">
+      <h2 class="why-title">{% trans "Who are our courses for?" %}</h2>
+      <div class="who__boxes">
+        <div class="who__boxes-img">
+          <img src="{% static 'images/who3.png' %}" alt="" />
+        </div>
+        <div class="who__boxes-box">
+          <span>🎒</span>{% trans "For children from 7 years of age" %} 
+        </div>
+        <div class="who__boxes-box">
+          <span>🧑🏼</span> {% trans "For primary and secondary school students" %}
+        </div>
+        <div class="who__boxes-box"><span>🎓</span>{% trans "For students" %} </div>
+        <div class="who__boxes-box">
+          <span>👩🏼‍💻</span>{% trans "For adults learning for work or pleasure" %} 
+        </div>
+        <div class="who__boxes-box">
+          <span>👨🏼‍💼</span>{% trans "For companies and organizations – language courses for employees" %} 
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <div class="why__left">
+        <div class="why__left-img">
+          <img src="{% static 'images/why1.jpg' %}" alt="" />
+        </div>
+        <div class="why__left-img">
+          <img src="{% static 'images/why2.jpg' %}" alt="" />
+        </div>
+      </div>
+      <div class="why__right">
+        <h2 class="why-title">{% trans "Why Learn Polish With Us?" %}</h2>
+        <ul>
+          <li>
+            <span class="why-dot"></span>
+            <span>{% trans "100% online Polish courses – study anywhere in the world" %}</span>
+          </li>
+          <li>
+            <span class="why-dot"></span
+            ><span>{% trans "Qualified and experienced Polish teachers" %}</span>
+          </li>
+          <li>
+            <span class="why-dot"></span
+            ><span
+              >{% trans "Tailored courses for beginners, intermediate, and advanced learners" %}</span
+            >
+          </li>
+          <li>
+            <span class="why-dot"></span
+            ><span>{% trans "Focus on real-life communication and cultural context" %}</span>
+          </li>
+          <li>
+            <span class="why-dot"></span
+            ><span>{% trans "Flexible schedules to fit your lifestyle" %}</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="features" class="features">
+      <img class="features-img" src="{% static 'images/features-bg.png' %}" alt="" />
+      <h2>{% trans "Our teaching methods" %}</h2>
+      <div class="features__boxes">
+        <div class="features__boxes__box">
+          <div class="features__boxes__box__icon">
+            <svg
+              class="features__boxes__box-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="m10.2 13.2l-1.05-1.05q.2-.275.275-.562T9.5 11t-.075-.587t-.275-.538L10.2 8.8q.4.475.6 1.05T11 11t-.2 1.138t-.6 1.062m2.125 2.15l-1.075-1.075q.625-.7.938-1.55T12.5 11t-.312-1.712t-.938-1.538l1.075-1.075q.85.925 1.263 2.038T14 11t-.413 2.3t-1.262 2.05M5 12q-.825 0-1.412-.587T3 10t.588-1.412T5 8t1.413.588T7 10t-.587 1.413T5 12m-4 4v-.575q0-.6.325-1.1t.9-.75q.65-.275 1.338-.425T5 13t1.438.15t1.337.425q.575.25.9.75t.325 1.1V16zm18-4q-.825 0-1.412-.587T17 10t.588-1.412T19 8t1.413.588T21 10t-.587 1.413T19 12m-4 4v-.575q0-.6.325-1.1t.9-.75q.65-.275 1.337-.425T19 13t1.437.15t1.338.425q.575.25.9.75t.325 1.1V16z" />
+            </svg>
+          </div>
+          <h4 class="features__boxes__box-title">{% trans "Communication first" %}</h4>
+          <p class="features__boxes__box-body">
+            {% blocktrans %}We focus on speaking from the very first lesson because we believe it's the most effective way to speak the language fluently.{% endblocktrans %}
+          </p>
+        </div>
+        <div class="features__boxes__box">
+          <div class="features__boxes__box__icon">
+            <svg
+              class="features__boxes__box-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <g fill="none">
+                <path
+                  fill="currentColor"
+                  d="m10.87 21.51l.645.382zm.259-.438l-.646-.382zm-2.258 0l.646-.382zm.26.438l-.646.382zm-6.827-4.38l.693-.286zm3.985 2.455l.024-.75zm-1.82-.29l-.287.693zm13.226-2.164l.693.287zm-3.984 2.454l-.024-.75zm1.82-.29l.287.693zM16.09 6.59l.392-.639zm1.32 1.321l.64-.392zM3.91 6.59l-.392-.64zM2.59 7.91l-.64-.392zm5.326 11.912l-.381.646zm3.599 2.07l.26-.438l-1.292-.764l-.26.438zm-3.29-.438l.26.438l1.291-.764l-.26-.438zm1.999-.326a.25.25 0 0 1-.224.122a.25.25 0 0 1-.224-.122l-1.29.764c.676 1.144 2.352 1.144 3.029 0zM8.8 6.75h2.4v-1.5H8.8zm8.45 6.05v.8h1.5v-.8zm-14.5.8v-.8h-1.5v.8zm-1.5 0c0 .922 0 1.65.04 2.24c.04.596.125 1.104.322 1.578l1.385-.574c-.108-.261-.175-.587-.21-1.106c-.037-.527-.037-1.196-.037-2.138zm5.063 5.235c-.792-.025-1.223-.094-1.557-.232l-.574 1.385c.597.248 1.255.32 2.083.347zm-4.701-1.417a4.75 4.75 0 0 0 2.57 2.57l.574-1.385a3.25 3.25 0 0 1-1.759-1.76zM17.25 13.6c0 .942 0 1.611-.036 2.138c-.036.52-.103.845-.211 1.106l1.385.574c.197-.474.281-.982.322-1.578c.04-.59.04-1.318.04-2.24zm-3.515 6.735c.828-.027 1.486-.1 2.083-.347l-.574-1.385c-.335.138-.765.207-1.557.232zm3.268-3.491a3.25 3.25 0 0 1-1.76 1.759l.575 1.385a4.75 4.75 0 0 0 2.57-2.57zM11.2 6.75c1.324 0 2.264 0 2.995.07c.72.069 1.16.199 1.503.409l.784-1.279c-.619-.38-1.315-.544-2.145-.623c-.818-.078-1.842-.077-3.137-.077zm7.55 6.05c0-1.295 0-2.319-.077-3.137c-.079-.83-.244-1.526-.623-2.145l-1.279.784c.21.343.34.783.409 1.503c.07.73.07 1.671.07 2.995zm-3.052-5.571a3.25 3.25 0 0 1 1.073 1.073l1.279-.784a4.75 4.75 0 0 0-1.568-1.568zM8.8 5.25c-1.295 0-2.319 0-3.137.077c-.83.079-1.526.244-2.145.623l.784 1.279c.343-.21.783-.34 1.503-.409c.73-.07 1.671-.07 2.995-.07zM2.75 12.8c0-1.324 0-2.264.07-2.995c.069-.72.199-1.16.409-1.503L1.95 7.518c-.38.619-.544 1.315-.623 2.145c-.078.818-.077 1.842-.077 3.137zm.768-6.85A4.75 4.75 0 0 0 1.95 7.518l1.279.784a3.25 3.25 0 0 1 1.073-1.073zm5.999 14.74c-.201-.34-.377-.638-.548-.874a2.2 2.2 0 0 0-.67-.64l-.764 1.292c.046.027.11.077.22.23c.12.165.256.393.47.756zm-3.252-.355c.446.014.73.024.947.05c.204.025.281.058.323.083l.763-1.291c-.29-.171-.594-.243-.905-.28c-.298-.037-.661-.048-1.08-.062zm5.51 1.119c.214-.363.35-.591.47-.756c.11-.153.174-.203.22-.23l-.763-1.291a2.2 2.2 0 0 0-.67.64c-.172.235-.348.534-.549.873zm1.912-2.619c-.419.014-.782.025-1.08.061c-.31.038-.616.11-.905.28l.763 1.292c.042-.025.119-.058.323-.083c.216-.026.501-.036.947-.05z" />
+                <path
+                  fill="currentColor"
+                  d="m21.715 12.435l.692.287zm-2.03 2.03l.287.693zm.524-11.912l-.392.64zm1.238 1.238l.64-.392zM8.791 2.553l-.392-.64zM7.553 3.79l-.64-.392zm5.822-1.041h2.25v-1.5h-2.25zm7.875 5.625v.75h1.5v-.75zm0 .75c0 .884 0 1.51-.034 2c-.033.486-.096.785-.194 1.023l1.385.574c.187-.451.267-.933.305-1.494c.038-.554.038-1.24.038-2.103zm-.228 3.023a3 3 0 0 1-1.624 1.624l.574 1.386a4.5 4.5 0 0 0 2.435-2.436zM15.625 2.75c1.242 0 2.12 0 2.804.066c.671.064 1.075.184 1.388.376l.784-1.279c-.588-.36-1.249-.516-2.03-.59c-.77-.074-1.733-.073-2.946-.073zm7.125 5.625c0-1.213 0-2.175-.073-2.946c-.074-.781-.23-1.442-.59-2.03l-1.28.784c.193.313.313.717.377 1.388c.065.683.066 1.562.066 2.804zm-2.933-5.183a3 3 0 0 1 .99.99l1.28-.783A4.5 4.5 0 0 0 20.6 1.913zM13.375 1.25c-1.213 0-2.175 0-2.946.072c-.781.075-1.442.23-2.03.591l.783 1.28c.314-.193.718-.313 1.39-.377c.682-.065 1.56-.066 2.803-.066zm-4.976.663A4.5 4.5 0 0 0 6.913 3.4l1.279.784a3 3 0 0 1 .99-.99zM7.782 6.04c.05-.96.175-1.473.41-1.856L6.913 3.4c-.437.713-.576 1.538-.629 2.562zm10.243 9.446c.767-.026 1.384-.094 1.947-.327l-.574-1.386c-.302.125-.694.19-1.423.214z" />
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6.51 13h.008M10 13h.009m3.482 0h.009" />
+              </g>
+            </svg>
+          </div>
+          <h4 class="features__boxes__box-title">{% trans "Language immersion method" %}</h4>
+          <p class="features__boxes__box-body">
+           {% blocktrans %}Students immerse themselves in the language through interactive exercises, dialogues, and authentic materials.{% endblocktrans %}
+          </p>
+        </div>
+        <div class="features__boxes__box">
+          <div class="features__boxes__box__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              class="features__boxes__box-icon"
+              viewBox="0 0 48 48">
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="4">
+                <path d="M8 8h32v20H8zm0 20L4 41h40l-4-13" />
+                <path d="M19.9 35h8.2l1.9 6H18z" />
+              </g>
+            </svg>
+          </div>
+          <h4 class="features__boxes__box-title">
+            {% trans "Learn Flexible and Convenient" %}
+          </h4>
+          <p class="features__boxes__box-body">
+           {% blocktrans %}No matter where you live, you can learn with us. Our online lessons take place on <span>Zoom</span>, <span>Skype</span>, or <span>Google Meet</span>, giving you direct contact with your teacher and interactive learning tools.{% endblocktrans %}
+          </p>
+        </div>
+      </div>
+      <div class="features__boxes">
+        <div class="features__boxes__box">
+          <div class="features__boxes__box__icon">
+            <svg
+              class="features__boxes__box-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512"
+              height="512"
+              viewBox="0 0 512 512">
+              <path
+                fill="currentColor"
+                d="M54.438 29.793a24 24 0 0 0-1.204.012c-4.688.157-7.914 1.734-10.113 3.933c-2.932 2.932-4.76 7.689-3.588 15.305c1.174 7.616 5.683 17.754 15.272 28.941c67.894 79.21 132.935 155.56 183.703 211.97c12.273 13.636 23.693 26.079 34.125 37.134c12.095-31.902 34.57-54.144 62.902-64.715c-10.825-10.199-22.936-21.313-36.197-33.248C242.93 178.357 166.578 113.314 87.369 45.42c-11.186-9.59-21.325-14.098-28.941-15.272a30 30 0 0 0-3.99-.355m375.109 1.043q-.462-.005-.875.023c-2.212.147-3.34.654-4.576 1.891l-27.58 27.58l55.156 55.154l27.578-27.58c1.238-1.236 1.745-2.362 1.89-4.574c.15-2.21-.37-5.434-1.804-9.164c-2.87-7.46-9.277-16.667-17.055-24.445s-16.985-14.185-24.445-17.055c-3.264-1.255-6.138-1.81-8.287-1.83zm-45.758 42.22l-9.9 9.901l9.9 9.898l12.727 12.729l9.9 9.898l12.729 12.729l9.898 9.9l9.9-9.9zm-22.627 22.628l-87.389 87.39l10.467 9.332l86.822-86.822zm22.627 22.629l-86.092 86.09l10.469 9.331l85.523-85.523zm22.629 22.624l-84.795 84.795l10.469 9.332l84.226-84.226l-9.898-9.9h-.002zm-213.857 123.35L72.664 384.186l9.898 9.898l119.342-119.342zm157.66 12.147c-30.461 7.627-53.24 29.184-63.608 65.218c5.652 5.785 10.956 11.085 15.78 15.707c7.58 7.264 14.096 13.007 19.21 16.957c1.777-17.225 10.045-33.062 21.645-44.691c10.601-10.628 24.496-18.006 39.125-19.092c-3.87-4.836-9.139-10.75-15.629-17.523c-4.838-5.047-10.416-10.623-16.523-16.576m-136.303 11.748L95.289 406.809l9.9 9.902l118.075-118.074zm21.361 23.894L117.918 429.437l9.896 9.9l116.81-116.806zm150.293 16.307c-10.397.137-20.929 5.28-29.582 13.955c-11.537 11.565-18.674 28.851-16.267 45.701c5.334 37.342 23.75 65.81 49.46 81.236c22.728 13.636 51.452 17.35 83.643 6.983c-24.222-4.01-46.475-30.705-48.197-50.649c10.63 12.814 23.94 24.547 38.426 31.75c-9.881-22.578-9.201-45.453-11.088-64.322c-1.352-13.522-3.891-24.982-11.377-35.162s-20.423-19.8-44.74-27.906a31 31 0 0 0-10.278-1.586m-322.35 71.816l-.003.002l.002.002zm-.001.004l-12.117 30.3l30.392 30.395l30.305-12.12l-6.61-6.612l-12.732-12.727l-9.898-9.898l-12.73-12.728zm-19.395 48.485l-12.992 32.476l32.478-12.992z" />
+            </svg>
+          </div>
+          <h4 class="features__boxes__box-title">{% trans "Modern tools" %}</h4>
+          <p class="features__boxes__box-body">
+           {% blocktrans %}We use video lesson platforms, interactive materials, and applications that support vocabulary and grammar learning.{% endblocktrans %}
+          </p>
+        </div>
+        <div class="features__boxes__box">
+          <div class="features__boxes__box__icon">
+            <svg
+              class="features__boxes__box-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12 12q-1.65 0-2.825-1.175T8 8t1.175-2.825T12 4t2.825 1.175T16 8t-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z" />
+            </svg>
+          </div>
+          <h4 class="features__boxes__box-title">{% trans "Personalization" %}</h4>
+          <p class="features__boxes__box-body">
+           {% blocktrans %}Every student has different needs, so we tailor the program to the student's level and goals.{% endblocktrans %}
+          </p>
+        </div>
+        <div class="features__boxes__box">
+          <div class="features__boxes__box__icon">
+            <svg
+              class="features__boxes__box-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 36 36">
+              <path
+                fill="currentColor"
+                d="M31.43 16H10v2h21.43a1 1 0 0 0 0-2"
+                class="clr-i-outline clr-i-outline-path-1" />
+              <path
+                fill="currentColor"
+                d="M31.43 24H10v2h21.43a1 1 0 0 0 0-2"
+                class="clr-i-outline clr-i-outline-path-2" />
+              <path
+                fill="currentColor"
+                d="M15.45 10h16a1 1 0 0 0 0-2h-14Z"
+                class="clr-i-outline clr-i-outline-path-3" />
+              <path
+                fill="currentColor"
+                d="M17.5 3.42a1.09 1.09 0 0 0-1.55 0l-8.06 8.06l-3.38-3.64a1.1 1.1 0 1 0-1.61 1.5l4.94 5.3L17.5 5a1.1 1.1 0 0 0 0-1.58"
+                class="clr-i-outline clr-i-outline-path-4" />
+              <path fill="none" d="M0 0h36v36H0z" />
+            </svg>
+          </div>
+          <h4 class="features__boxes__box-title">
+            {% trans "Regular feedback and progress tests" %}
+          </h4>
+          <p class="features__boxes__box-body">
+           {% blocktrans %}Students always know what stage they are at and have constant contact with their teacher.{% endblocktrans %}
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="team">
+      <div class="arrows">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="arrows__icon">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="m14 7l-5 5l5 5" />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="arrows__icon">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="m10 17l5-5l-5-5" />
+        </svg>
+      </div>
+
+      <h2>{% trans "Our teachers" %}</h2>
+      <div class="team__person">
+        <div class="team__person-left">
+          <div class="team__person-left-img">
+            <img src="{% static 'images/team1.jpg' %}" />
+          </div>
+        </div>
+        <div class="team__person-right">
+          <h3>Aleksandra Szabrańska</h3>
+          <h4>
+            {% blocktrans %}School Owner / Philologist / Educator / Teacher of Polish as a Foreign Language{% endblocktrans %}
+          </h4>
+          <p class="paragraph">
+           {% blocktrans %}The owner of a language school has been working for years with young people and adults from around the world who want to better understand both the Polish language and culture. She is a native Polish speaker. She has extensive experience in preparing students for certification in Polish as a foreign language from levels A2 to C1, with students successfully passing the exams. She holds a bachelor's degree in English Philology, specializing in teaching, which provides her with pedagogical and methodological training in teaching foreign languages. She speaks English, Spanish, and Turkish.{% endblocktrans %}
+          </p>
+        </div>
+      </div>
+      <div class="team__person team__person-hide">
+        <div class="team__person-left">
+          <div class="team__person-left-img">
+            <img class="fix-center" src="{% static 'images/team2.jpg' %}" />
+          </div>
+        </div>
+        <div class="team__person-right">
+          <h3>Aleksandra Krzymińska</h3>
+          <h4 class="margin-bt">{% trans "Philologist / Pedagogue / English teacher" %}</h4>
+          <p class="paragraph">
+           {% blocktrans %}A graduate of a BA in English Philology, specializing in teaching. An English teacher with 10 years of experience in tutoring, she specializes in individualized approaches to students and developing their language skills. She lived in Scotland for 12 years, where she completed an HNC in Early Education and Childcare, gaining knowledge in education and methodologies for working with children and young people. She conducts individual, group, and paired classes for children, adolescents, and adults. She also specializes in preparing young people for exams, providing a solid language foundation, a clear learning plan, and a friendly atmosphere that fosters consistency and self-confidence.{% endblocktrans %}
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="price" class="price">
+      <h2>{% trans "Course offer" %}</h2>
+      <p class="price-title">{% trans "Polish courses for foreigners" %} 🇵🇱</p>
+      <div class="price__boxes">
+        <div class="price__boxes__box">
+          <div class="price__boxes__box__left">
+            <span class="price__boxes__box__left-title"
+              >{% trans "Polish from scratch" %} <br />(A1–A2)</span
+            >
+            <div class="price__boxes__box__left__prices">
+              <p><span>60zł</span>/45min</p>
+            </div>
+          </div>
+          <div class="price__boxes__box__right">
+            <ul class="price__boxes__box__right__list">
+              <li>{% trans "Learning basic language structures" %}</li>
+              <li>{% trans "Everyday and situational vocabulary" %}</li>
+              <li>{% trans "Pronunciation and intonation exercises" %}</li>
+              <li>
+                {% trans "Simple dialogues from everyday life (shopping, restaurants, travel)" %}
+              </li>
+            </ul>
+            <a href="#" class="btn">{% trans "Sign up" %}</a>
+          </div>
+        </div>
+        <div class="price__boxes__box">
+          <div class="price__boxes__box__left">
+            <span class="price__boxes__box__left-title"
+              >{% blocktrans %}advanced <br />level {% endblocktrans %}(B1–C1)</span
+            >
+            <div class="price__boxes__box__left__prices">
+              <p><span>80zł</span>/60min</p>
+              <p><span>130zł</span>/90min</p>
+            </div>
+          </div>
+          <div class="price__boxes__box__right">
+            <ul class="price__boxes__box__right__list">
+              <li>{% trans "Grammar, conversation, writing, and text comprehension" %}</li>
+              <li>{% trans "Preparation for language certifications" %}</li>
+              <li>{% trans "Individualized approach and language feedback" %}</li>
+            </ul>
+            <a href="#" class="btn">{% trans "Sign up" %}</a>
+          </div>
+        </div>
+        <div class="price__boxes__box">
+          <div class="price__boxes__box__left">
+            <span class="price__boxes__box__left-title"
+              >{% blocktrans %}Polish<br />at work{% endblocktrans %}</span
+            >
+            <div class="price__boxes__box__left__prices">
+              <p><span>80zł</span>/60min</p>
+              <p><span>130zł</span>/90min</p>
+            </div>
+          </div>
+          <div class="price__boxes__box__right">
+            <ul class="price__boxes__box__right__list">
+              <li>{% trans "Industry Vocabulary" %}</li>
+              <li>{% trans "Communication in a Professional Environment" %}</li>
+            </ul>
+            <a href="#" class="btn">{% trans "Sign up" %}</a>
+          </div>
+        </div>
+        <div class="price__boxes__box price__boxes__box-group">
+          <div class="price__boxes__box-group-titles">
+            <span
+              class="price__boxes__box__left-title price__boxes__box-group-titles-title"
+              >{% trans "Beginner group" %}</span
+            >
+            <span
+              class="price__boxes__box__left-title price__boxes__box-group-titles-title"
+              >{% trans "Advanced group" %}</span
+            >
+          </div>
+          <div class="price__boxes__box-group-text">
+            <p>{% trans "Groups of max 5 people" %}</p>
+            <p>
+              {% blocktrans %}Classes begin in mid-September and are held twice a week for 50 minutes each, lasting 14 weeks. {% endblocktrans %}
+            </p>
+          </div>
+          <div class="price__boxes__box-group-prices">
+            <div class="price__boxes__box__left__prices">
+              <p><span>400zł</span>/{% trans "month" %}</p>
+              <p><span>1100zł</span>/{% trans "course" %}</p>
+            </div>
+            <div class="price__boxes__box-group-prices-pipe">
+              <a href="#" class="btn">{% trans "Sign up" %}</a>
+            </div>
+            <div class="price__boxes__box__left__prices">
+              <p><span>500zł</span>/{% trans "month" %}</p>
+              <p><span>1400zł</span>/{% trans "course" %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="price-title">{% trans "English courses for Poles" %} 🇬🇧</p>
+      <div class="price__boxes">
+        <div class="price__boxes__box">
+          <div class="price__boxes__box__left">
+            <span class="price__boxes__box__left-title"
+              >{% blocktrans %}children<br />(classes 1-3){% endblocktrans %}</span
+            >
+            <div class="price__boxes__box__left__prices">
+              <p><span>60zł</span>/45min</p>
+            </div>
+          </div>
+          <div class="price__boxes__box__right">
+            <ul class="price__boxes__box__right__list">
+              <li>{% trans "Online classes in small groups or individually" %}</li>
+              <li>{% trans "Learning through play, language games, and songs" %}</li>
+              <li>{% trans "Homework help" %}</li>
+            </ul>
+            <a href="#" class="btn">{% trans "Sign up" %}</a>
+          </div>
+        </div>
+        <div class="price__boxes__box">
+          <div class="price__boxes__box__left">
+            <span class="price__boxes__box__left-title"
+              >{% blocktrans %}youth and<br />students{% endblocktrans %} </span
+            >
+            <div class="price__boxes__box__left__prices">
+              <p><span>80zł</span>/60min</p>
+              <p><span>130zł</span>/90min</p>
+            </div>
+          </div>
+          <div class="price__boxes__box__right">
+            <ul class="price__boxes__box__right__list">
+              <li>{% trans "School tutoring (grades 1–8 and high school)" %}</li>
+              <li>{% trans "Preparation for the eighth-grade exam and the Matura exam" %}</li>
+              <li>
+                {% trans "Activities supporting conversation and vocabulary development" %}
+              </li>
+            </ul>
+            <a href="#" class="btn">{% trans "Sign up" %}</a>
+          </div>
+        </div>
+        <div class="price__boxes__box">
+          <div class="price__boxes__box__left">
+            <span class="price__boxes__box__left-title"> {% trans "adults" %}</span>
+            <div class="price__boxes__box__left__prices">
+              <p><span>80zł</span>/60min</p>
+              <p><span>130zł</span>/90min</p>
+            </div>
+          </div>
+          <div class="price__boxes__box__right">
+            <ul class="price__boxes__box__right__list">
+              <li>{% trans "Courses from A1 to C1" %}</li>
+              <li>{% trans "Business English" %}</li>
+              <li>{% trans "Exam Preparation" %}</li>
+              <li>{% trans "Conversations with a Teacher" %}</li>
+            </ul>
+            <a href="#" class="btn">{% trans "Sign up" %}</a>
+          </div>
+        </div>
+        <div class="price__boxes__box price__boxes__box-group">
+          <div class="price__boxes__box-group-titles">
+            <span
+              class="price__boxes__box__left-title price__boxes__box-group-titles-title"
+              >{% trans "Beginner group" %}</span
+            >
+            <span
+              class="price__boxes__box__left-title price__boxes__box-group-titles-title"
+              >{% trans "Advanced group" %}</span
+            >
+          </div>
+          <div class="price__boxes__box-group-text">
+            <p class="price__boxes__box-group-text-p">{% trans "Groups of max 5 people" %}</p>
+            <p>
+              {% blocktrans %}Classes begin in mid-September and are held twice a week for 60 minutes each, lasting 14 weeks.{% endblocktrans %}
+            </p>
+          </div>
+          <div class="price__boxes__box-group-prices">
+            <div class="price__boxes__box__left__prices">
+              <p><span>400zł</span>/{% trans "month" %}</p>
+              <p><span>1100zł</span>/{% trans "course" %}</p>
+            </div>
+            <div class="price__boxes__box-group-prices-pipe">
+              <a href="#" class="btn">{% trans "Sign up" %}</a>
+            </div>
+            <div class="price__boxes__box__left__prices">
+              <p><span>500zł</span>/{% trans "month" %}</p>
+              <p><span>1400zł</span>/{% trans "course" %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="gallery-img">
+        <img src="{% static 'images/gallery1.jpg' %}" alt="" />
+      </div>
+      <div class="gallery-img">
+        <img src="{% static 'images/gallery2.avif' %}" alt="" />
+      </div>
+      <div class="gallery-img">
+        <img src="{% static 'images/gallery3.avif' %}" alt="" />
+      </div>
+      <div class="gallery-img">
+        <img src="{% static 'images/gallery4.jpg' %}" alt="" />
+      </div>
+    </section>
+    <footer id="contact" class="contact">
+      <div class="contact__left">
+        <ul class="contact__left__info">
+          <li>{% trans "Online Foreign Language School" %}</li>
+          <li>{% trans "Polish and English" %}</li>
+          <li>
+            <a href="mailto:berkolalanguage@gmail.com"
+              >📌 berkolalanguage@gmail.com</a
+            >
+          </li>
+        </ul>
+        <ul class="contact__left__info">
+          <li>Aleksandra Szabrańska</li>
+          <li>
+            {% blocktrans %}School owner / Philologist / Pedagogue / Polish language teacher{% endblocktrans %}
+          </li>
+          <li>☎️ <a href="tel:+ 48 577 468 947">+ 48 577 468 947</a></li>
+        </ul>
+      </div>
+      <div class="contact__right">
+        <form class="contact__right-form">
+          <h4>{% trans "Contact with us" %}</h4>
+          <div>
+            <input type="text" placeholder="{% trans 'Full name' %} " required />
+            <input type="email" placeholder="{% trans 'Email' %}" required />
+          </div>
+          <input required type="tel" placeholder="{% trans 'Phone number' %}" />
+          <textarea required rows="5" placeholder="{% trans 'Your message' %}"></textarea>
+          <button class="btn">{% trans "Send message" %}</button>
+        </form>
+      </div>
+    </footer>
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 8rem 4rem;
+  gap: 1rem;
+  scroll-margin-top: 150px;
+  @media only screen and (max-width: 76.8em){
+        margin: 4rem 3rem;
+      }
+      @media only screen and (max-width: 47.5em){
+        flex-direction: column;
+        text-align: justify;
+
+    }
+  &__left {
+    flex: 0 1 50%;
+    order: 2;
+
+    &-img {
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      &-photo {
+        display: block;
+        width: 80%;
+        height: 350px;
+        border-radius: 15px;
+        object-fit: cover;
+        @media only screen and (max-width: 76.8em){
+          height: 250px;
+      }
+      @media only screen and (max-width: 47.5em){
+        width: 100%;
+        height: 250px;
+    }
+      }
+      &-shape {
+        position: absolute;
+        bottom: -100px;
+        right: 60px;
+        width: 200px;
+        height: 200px;
+        transform: rotate(90deg);
+        z-index: -1;
+        opacity: 0.7;
+        @media only screen and (max-width: 76.8em){
+          right: 10px;
+        }
+        @media only screen and (max-width: 50em){
+          width: 140px;
+          height: 140px;
+          bottom: -60px;
+        }
+        @media only screen and (max-width: 47.5em){
+        display: none;
+    }
+      }
+    }
+  }
+  &__right {
+    flex: 0 1 50%;
+    margin-left: 3rem;
+    @media only screen and (max-width: 47.5em){
+        margin-left: 0;
+    }
+    p {
+      width: 80%;
+      font-size: 1.7rem;
+      @media only screen and (max-width: 47.5em){
+        width: 100%;
+    }
+    }
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    @media only screen and (max-width: 65.5em){
+        h2{
+          font-size: 4rem;
+        }
+    }
+    @media only screen and (max-width: 50em){
+      flex: 0 1 60%;
+      p{
+        font-size: 1.4rem;  
+      }
+      h2{
+        font-size: 3rem;
+      } 
+    }
+    @media only screen and (max-width: 47.5em){
+      h2{
+        text-align: center;
+
+      }  
+    }
+  }
+}
+
+.paragraph-about {
+  margin-top: 6rem;
+  background-color: rgba(251, 184, 60, 0.165);
+  text-transform: uppercase;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 76.8em){
+        .paragraph-about{
+          font-size: 1.4rem !important;
+          margin-top: 4rem;
+          padding: 1rem 2rem;
+          font-weight: 600;
+        }
+      }
+
+@media only screen and (max-width: 50em){
+     .paragraph-about{
+      font-size: 1.2rem !important;
+     }   
+    }
+
+    @media only screen and (max-width: 47.5em){
+        .paragraph-about{
+          border-radius: 10px;
+          margin-top: 2.5rem;
+          margin-bottom: 2rem;
+        }
+    }

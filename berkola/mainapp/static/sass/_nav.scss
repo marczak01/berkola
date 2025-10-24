@@ -1,0 +1,70 @@
+.nav {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  &__flags {
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    background-color: #fff;
+    display: flex;
+    gap: 0.7rem;
+    padding: 1px 5px;
+    span {
+      line-height: 1;
+      font-size: 3rem;
+      a:link,
+      a:visited {
+        text-decoration: none;
+      }
+    }
+  }
+  &__logo {
+    width: 15%;
+    img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    @media only screen and (max-width: 50.5em){
+        width: 20%;
+    }
+    @media only screen and (max-width: 46.8em){
+        width: 50%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: 10rem;
+    list-style: none;
+    font-size: 1.7rem;
+
+    li {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    @media only screen and (max-width: 76.8em){
+        font-size: 1.5rem;
+        gap: 5rem;
+      }
+    @media only screen and (max-width: 46.8em){
+        display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 76.8em){
+        .nav-btn{
+          padding: 1rem 1.5rem;
+          font-size: 1.6rem;
+        }
+      }

@@ -1,0 +1,126 @@
+.why {
+  margin: 5rem 0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgba(251, 184, 60, 0.055);
+
+  @media only screen and (max-width: 76.8em){
+        padding: 3rem 4rem;
+      }
+    @media only screen and (max-width: 50em){
+     flex-direction: column-reverse;
+     padding: 3rem 3rem 9rem 3rem;
+    }
+    @media only screen and (max-width: 47.5em){
+        padding: 3rem 2rem;
+    }
+  &-title {
+    text-align: center;
+  }
+  &__left {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    @media only screen and (max-width: 47.5em){
+        
+    }
+    &-img {
+      width: 50%;
+      height: 50%;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+      &:nth-child(2) {
+        transform: translate(-40px, 55px);
+        
+        @media only screen and (max-width: 47.5em){
+        transform: none;
+    }
+      }
+      @media only screen and (max-width: 50em){
+      width: 35%;
+      height: 35%;   
+    }
+    @media only screen and (max-width: 47.5em){
+        width: 100%;
+      
+    }
+    }
+    @media only screen and (max-width: 76.8em){
+      flex: 60%;
+    }
+
+    @media only screen and (max-width: 47.5em){
+       gap:2rem; 
+    }
+    
+  }
+  &__right {
+    flex: 50%;
+    h2 {
+      font-size: 3.2rem;
+      margin-bottom: 3rem;
+    }
+    @media only screen and (max-width: 47.5em){
+        h2{
+          font-size: 2.5rem;
+        }
+    }
+    ul {
+      list-style: none;
+      margin-left: 50px;
+      background-color: #ffffffaa;
+      box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1);
+      padding: 2rem 4rem;
+      border-radius: 20px;
+
+      li {
+        font-size: 1.6rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        font-weight: 500;
+
+        &:not(:last-child) {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+    @media only screen and (max-width: 76.8em){
+        ul{
+          margin: 0;
+          li{
+            font-size: 1.4rem;
+
+            &:not(:last-child) {
+              margin-bottom: 2rem;
+            }
+          }
+        }
+      }
+      @media only screen and (max-width: 47.5em){
+        ul{
+          padding: 2rem 2rem;
+        }
+    }
+  }
+  &-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #fab536c3;
+    border-radius: 50%;
+    @media only screen and (max-width: 76.8em){
+        width: 10px;
+        height: 10px;
+        min-width: 10px;
+        max-width: 10px;
+        min-height: 10px;
+      }
+  }
+}

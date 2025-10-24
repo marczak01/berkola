@@ -1,0 +1,121 @@
+.contact {
+  margin-top: 4rem;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  scroll-margin-bottom: 150px;
+  @media only screen and (max-width: 76.8em){
+        margin-top: 2rem;
+      }
+  @media only screen and (max-width: 50em){
+     flex-direction: column-reverse;   
+    }
+    @media only screen and (max-width: 46.8em){
+        padding: 1rem;
+    }
+  &__left {
+    flex: 30%;
+    padding: 5rem;
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.8rem;
+    @media only screen and (max-width: 76.8em){
+        font-size: 1.6rem;
+        padding-left: 5rem;
+      }
+    @media only screen and (max-width: 50em){
+     flex-direction: row;
+     font-size: 1.5rem;   
+     align-items: center;
+    }
+    @media only screen and (max-width: 46.8em){
+        flex-direction: column;
+align-items: flex-start;
+    }
+    &__info {
+      list-style: none;
+      font-weight: 500;
+      li:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: rgb(250, 181, 54);
+      }
+      @media only screen and (max-width: 50em){
+      flex: 50%;   
+    }
+    }
+  }
+
+  &__right {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &-form {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      gap: 2rem;
+      @media only screen and (max-width: 76.8em){
+        width: 90%;
+      }
+      div > input {
+        width: 49%;
+      }
+      h4 {
+        font-size: 2.7rem;
+        font-weight: 500;
+        color: #293462;
+      }
+      input {
+        font-family: inherit;
+        padding: 1.5rem 1.5rem;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(35, 87, 132, 0.069);
+        font-size: 1.6rem;
+
+        &:focus {
+          outline: none;
+        }
+
+        &::placeholder {
+          color: #293462;
+          font-size: 1.6rem;
+        }
+
+        &:valid {
+          background-color: rgb(232, 240, 254) !important;
+        }
+      }
+
+      textarea {
+        font-family: inherit;
+        padding: 1rem 1rem;
+        resize: none;
+        border: none;
+        background-color: rgba(35, 87, 132, 0.069);
+        border-radius: 10px;
+        font-size: 1.6rem;
+
+        &::placeholder {
+          color: #293462;
+        }
+        &:valid {
+          background-color: rgb(232, 240, 254) !important;
+        }
+      }
+
+      button {
+        border: none;
+        font-family: inherit;
+      }
+    }
+  }
+}

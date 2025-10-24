@@ -1,0 +1,272 @@
+.price {
+  padding: 5rem;
+  position: relative;
+  scroll-margin-top: 50px;
+  @media only screen and (max-width: 47.5em){
+    padding: 2rem;
+    padding-right: 3rem;
+  }
+
+  &-title {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #c636362f;
+    @media only screen and (max-width: 76.8em){
+      font-size: 2.5rem; 
+    }
+    @media only screen and (max-width: 50em){
+      font-size: 2.2rem;
+    }
+    &:nth-of-type(2) {
+      margin-top: 7rem;
+      margin-bottom: 5rem;
+    }
+    @media only screen and (max-width: 47.5em){
+      font-size: 1.8rem;   
+      border: none;
+      margin-bottom: 2rem;
+    }
+  }
+
+  h2 {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    margin-bottom: 5rem;
+    @media only screen and (max-width: 76.8em){
+      font-size: 4rem; 
+    }
+    @media only screen and (max-width: 50em){
+      font-size: 3rem;   
+    }
+    @media only screen and (max-width: 47.5em){
+      font-size: 2.7rem;
+      margin-bottom: 3rem;
+    }
+  }
+  &__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin: 5rem;
+    @media only screen and (max-width: 46.8em){
+      margin: 0;
+    }
+
+    &__box {
+      flex: 1 1 40%;
+      border-radius: 15px;
+      padding: 3rem;
+      background-color: rgba(251, 184, 60, 0.625);
+      display: flex;
+      gap: 4rem;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+      @media only screen and (max-width: 46.8em){
+        flex-direction: column;
+        padding-right: 1.5rem;
+        gap:2rem;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        z-index: -10;
+        border-radius: 10px;
+        box-shadow: 1px 2px 8px 0px rgba(21, 35, 98, 0.378);
+      }
+      &__left {
+        flex: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        border-right: 1px solid #29346270;
+        padding-right: 2rem;
+        @media only screen and (max-width: 47.5em){
+          border: none;
+          padding-right: 0;
+          gap:2rem;
+        }
+
+        &-title {
+          font-weight: 500;
+          padding: 1rem;
+          border-radius: 10px;
+          text-transform: uppercase;
+          text-align: center;
+          width: 100%;
+          color: black;
+          border: 2px solid #293462;
+          @media only screen and (max-width: 65.5em){
+            font-size: 1.2rem;
+          }
+          @media only screen and (max-width: 47.5em){
+            font-size: 1.4rem;
+            font-weight: 600;
+          }
+        }
+        &__prices {
+          align-self: flex-start;
+          @media only screen and (max-width: 47.5em){
+            align-self: center;
+          }
+          p {
+            @media only screen and (max-width: 47.5em){
+              font-size: 2rem;
+            }
+            span {
+              color: black;
+              padding-right: 0.5rem;
+              font-size: 3.3rem;
+              font-weight: 400;
+              @media only screen and (max-width: 47.5em){
+                font-size: 4.5rem;
+              }
+            }
+          }
+        }
+      }
+      &__right {
+        flex: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__list {
+          list-style: none;
+          font-size: 1.6rem;
+          li {
+            position: relative;
+            &:not(:last-child) {
+              margin-bottom: 1.5rem;
+            }
+            &::before {
+              content: "✓";
+              position: absolute;
+              left: -20px;
+              color: #ffca3a;
+              font-weight: bold;
+              @media only screen and (max-width: 47.5em){
+                font-size: 1.8rem;
+              }
+            }
+          }
+          @media only screen and (max-width: 65.5em){
+            font-size: 1.3rem;
+            font-weight: 500;
+          }
+          @media only screen and (max-width: 47.5em){
+            padding-left: 1rem;
+            li{
+              font-size: 1.4rem;
+            }
+          }
+        }
+        a {
+          align-self: flex-end;
+          margin-top: 2rem;
+        }
+      }
+
+      &-group {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, fit-content);
+
+        &-titles {
+          display: flex;
+          justify-content: space-around;
+          gap: 5rem;
+          @media only screen and (max-width: 47.5em){
+            gap:2rem;
+            margin-bottom: 2rem;
+          }
+        }
+        &-prices {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          @media only screen and (max-width: 76.8em){
+            transform: translateY(-20px);
+            a{
+              position: absolute;
+              left: 50%;
+              transform: translate(-50%, 40px);
+              padding: 1rem 1.5rem;
+            }
+          } 
+          @media only screen and (max-width: 65.5em){
+            a{
+              padding: 0.7rem 1rem;
+              font-size: 1.7rem;
+            }
+          }
+          @media only screen and (max-width: 50em){
+            a{
+              transform: translate(-50%, 25px);
+            }   
+          }
+          @media only screen and (max-width: 47.5em){
+            justify-content: space-between;
+            a{
+              transform: translate(-50%, 35px);
+            }
+          }
+        }
+
+        &-text {
+          font-size: 1.6rem;
+          p:nth-of-type(1) {
+            font-weight: 600;
+            margin-top: -20px;
+            margin-bottom: 2.5rem;
+            text-transform: uppercase;
+            @media only screen and (max-width: 47.5em){
+              margin-bottom: 1.5rem;
+            }
+          }
+          p:nth-of-type(2) {
+            line-height: 1.4;
+            @media only screen and (max-width: 47.5em){
+              margin-bottom: 1.5rem;
+            }
+          }
+          @media only screen and (max-width: 65.5em){
+            font-size: 1.4rem;
+          }
+        }
+
+        &-side {
+          border: none;
+        }
+
+        p {
+          text-align: center;
+
+          span {
+            color: black;
+            font-size: 3.3rem;
+            font-weight: 400;
+            @media only screen and (max-width: 76.8em){
+              font-size: 2.2rem;
+            }
+            @media only screen and (max-width: 47.5em){
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

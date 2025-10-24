@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  background-color: rgb(250, 181, 54);
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 4.5rem;
+  color: #c63636;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.margin-bt {
+  margin-bottom: 5rem;
+}
+.margin-bt-big {
+  margin-bottom: 10rem !important;
+}
+
+.margin-bt-small {
+  margin-bottom: 2rem;
+}
+.margin-big {
+  margin: 10rem 0 !important;
+}
+
+.text-align {
+  text-align: center;
+}

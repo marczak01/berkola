@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 20:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: berkola/settings.py:119
+msgid "English"
+msgstr ""
+
+#: berkola/settings.py:120
+msgid "Polish"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:27
+#: mainapp/templates/mainapp/index.html:76
+msgid "About us"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:28
+msgid "Teaching methods"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:29
+msgid "Our team"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:30
+msgid "Pricing"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:33
+msgid "Contact"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:45
+msgid ""
+"\n"
+"              \n"
+"            \n"
+"            We are an online language school specializing in Polish as a "
+"foreign\n"
+"            language."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:52
+msgid ""
+"\n"
+"                \n"
+"              \n"
+"              Master the Polish language with professional teachers. Join "
+"our\n"
+"              interactive online lessons and discover Polish culture while\n"
+"              improving your communication skills."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:59
+msgid ""
+"\n"
+"              \n"
+"             We also offer English lessons for Poles."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:63
+msgid "Learn more"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:78
+msgid ""
+"\n"
+"            \n"
+"         \n"
+"          We are a modern online language school that combines a passion "
+"for\n"
+"          teaching with experience and proven teaching methods.<br /><br />\n"
+"          We teach English to Poles and Polish to foreigners – of all ages "
+"and\n"
+"          at all levels. "
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:87
+msgid ""
+"\n"
+"            \n"
+"          \n"
+"          Our goal is <span>effective</span>, <span>engaging</span>, and\n"
+"          <span>practical</span> language learning—without stress or boredom."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:96
+msgid "Who are our courses for?"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:102
+msgid "For children from 7 years of age"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:105
+msgid "For primary and secondary school students"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:107
+msgid "For students"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:109
+msgid "For adults learning for work or pleasure"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:127
+msgid "Why Learn Polish With Us?"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:132
+#, python-format
+msgid "100%% online Polish courses – study anywhere in the world"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:137
+msgid "Qualified and experienced Polish teachers"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:148
+msgid "Focus on real-life communication and cultural context"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:152
+msgid "Flexible schedules to fit your lifestyle"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:159
+msgid "Our teaching methods"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:174
+msgid "Communication first"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:176
+msgid ""
+"\n"
+"              \n"
+"            \n"
+"            We focus on speaking from the very first lesson because we "
+"believe\n"
+"            it's the most effective way to speak the language fluently."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:207
+msgid "Language immersion method"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:209
+msgid ""
+"\n"
+"             \n"
+"            Students immerse themselves in the language through interactive\n"
+"            exercises, dialogues, and authentic materials."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:235
+msgid "Learn Flexible and Convenient"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:238
+msgid ""
+"\n"
+"             \n"
+"            No matter where you live, you can learn with us. Our online "
+"lessons\n"
+"            take place on <span>Zoom</span>, <span>Skype</span>, or\n"
+"            <span>Google Meet</span>, giving you direct contact with your\n"
+"            teacher and interactive learning tools."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:261
+msgid "Modern tools"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:263
+msgid ""
+"\n"
+"             \n"
+"            We use video lesson platforms, interactive materials, and\n"
+"            applications that support vocabulary and grammar learning."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:282
+msgid "Personalization"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:284
+msgid ""
+"\n"
+"             \n"
+"            Every student has different needs, so we tailor the program to "
+"the\n"
+"            student's level and goals."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:318
+msgid "Regular feedback and progress tests"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:321
+msgid ""
+"\n"
+"             \n"
+"            Students always know what stage they are at and have constant\n"
+"            contact with their teacher."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:361
+msgid "Our teachers"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:371
+msgid ""
+"\n"
+"              \n"
+"             School Owner / Philologist / Educator / Teacher of Polish as a\n"
+"            Foreign Language"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:377
+msgid ""
+"\n"
+"             \n"
+"            The owner of a language school has been working for years with "
+"young\n"
+"            people and adults from around the world who want to better\n"
+"            understand both the Polish language and culture. She is a "
+"native\n"
+"            Polish speaker. She has extensive experience in preparing "
+"students\n"
+"            for certification in Polish as a foreign language from levels A2 "
+"to\n"
+"            C1, with students successfully passing the exams. She holds a\n"
+"            bachelor's degree in English Philology, specializing in "
+"teaching,\n"
+"            which provides her with pedagogical and methodological training "
+"in\n"
+"            teaching foreign languages. She speaks English, Spanish, and\n"
+"            Turkish."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:400
+msgid "Philologist / Pedagogue / English teacher"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:402
+msgid ""
+"\n"
+"             \n"
+"            A graduate of a BA in English Philology, specializing in "
+"teaching.\n"
+"            An English teacher with 10 years of experience in tutoring, she\n"
+"            specializes in individualized approaches to students and "
+"developing\n"
+"            their language skills. She lived in Scotland for 12 years, where "
+"she\n"
+"            completed an HNC in Early Education and Childcare, gaining "
+"knowledge\n"
+"            in education and methodologies for working with children and "
+"young\n"
+"            people. She conducts individual, group, and paired classes for\n"
+"            children, adolescents, and adults. She also specializes in "
+"preparing\n"
+"            young people for exams, providing a solid language foundation, "
+"a\n"
+"            clear learning plan, and a friendly atmosphere that fosters\n"
+"            consistency and self-confidence."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:420
+msgid "Course offer"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:421
+msgid "Polish courses for foreigners"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:426
+msgid "Polish from scratch"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:434
+msgid "Learning basic language structures"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:435
+msgid "Everyday and situational vocabulary"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:436
+msgid "Pronunciation and intonation exercises"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:442
+#: mainapp/templates/mainapp/index.html:463
+#: mainapp/templates/mainapp/index.html:484
+#: mainapp/templates/mainapp/index.html:514
+#: mainapp/templates/mainapp/index.html:542
+#: mainapp/templates/mainapp/index.html:566
+#: mainapp/templates/mainapp/index.html:584
+#: mainapp/templates/mainapp/index.html:614
+msgid "Sign up"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:448
+msgid ""
+"\n"
+"                \n"
+"               advanced <br />level "
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:459
+msgid "Grammar, conversation, writing, and text comprehension"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:460
+msgid "Preparation for language certifications"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:461
+msgid "Individualized approach and language feedback"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:469
+msgid ""
+"\n"
+"                \n"
+"               Polish<br />\n"
+"              at work"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:481
+msgid "Industry Vocabulary"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:482
+msgid "Communication in a Professional Environment"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:491
+#: mainapp/templates/mainapp/index.html:591
+msgid "Beginner group"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:495
+#: mainapp/templates/mainapp/index.html:595
+msgid "Advanced group"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:499
+#: mainapp/templates/mainapp/index.html:599
+msgid "Groups of max 5 people"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:501
+msgid ""
+"\n"
+"                \n"
+"             \n"
+"              Classes begin in mid-September and are held twice a week for "
+"50\n"
+"              minutes each, lasting 14 weeks. "
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:510
+#: mainapp/templates/mainapp/index.html:517
+#: mainapp/templates/mainapp/index.html:610
+#: mainapp/templates/mainapp/index.html:617
+msgid "month"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:511
+#: mainapp/templates/mainapp/index.html:518
+#: mainapp/templates/mainapp/index.html:611
+#: mainapp/templates/mainapp/index.html:618
+msgid "course"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:523
+msgid "English courses for Poles"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:528
+msgid ""
+"\n"
+"                \n"
+"               children<br />(classes 1-3)"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:538
+msgid "Online classes in small groups or individually"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:539
+msgid "Learning through play, language games, and songs"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:540
+msgid "Homework help"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:548
+msgid ""
+"\n"
+"                \n"
+"              youth and<br />\n"
+"              students"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:560
+msgid "School tutoring (grades 1–8 and high school)"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:561
+msgid "Preparation for the eighth-grade exam and the Matura exam"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:563
+msgid "Activities supporting conversation and vocabulary development"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:571
+msgid "adults"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:579
+msgid "Courses from A1 to C1"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:580
+msgid "Business English"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:581
+msgid "Exam Preparation"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:582
+msgid "Conversations with a Teacher"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:601
+msgid ""
+"\n"
+"                \n"
+"              \n"
+"              Classes begin in mid-September and are held twice a week for "
+"60\n"
+"              minutes each, lasting 14 weeks."
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:641
+msgid "Online Foreign Language School"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:642
+msgid "Polish and English"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:652
+msgid ""
+"\n"
+"              \n"
+"             School owner / Philologist / Pedagogue / Polish language teacher"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:661
+msgid "Contact with us"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:668
+msgid "Send message"
+msgstr ""

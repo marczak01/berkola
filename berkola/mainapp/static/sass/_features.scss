@@ -1,0 +1,130 @@
+.features {
+  margin: 8rem 0 8rem 0;
+  padding: 0 5rem;
+  position: relative;
+  scroll-margin-top: 50px;
+  @media only screen and (max-width: 47.5em){
+    margin: 5rem 0;
+        padding: 0 2rem;
+    }
+  &-img {
+    display: block;
+    position: absolute;
+    z-index: -50;
+    opacity: 0.7;
+    top: -50px;
+    right: 50px;
+    width: 300px;
+    transform: rotate(340deg);
+    @media only screen and (max-width: 76.8em){
+        width: 200px;
+      }
+    @media only screen and (max-width: 50em){
+     width: 150px;   
+    }
+    @media only screen and (max-width: 47.5em){
+        display: none;
+    }
+  }
+  h2 {
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    position: relative;
+    width: fit-content;
+    @media only screen and (max-width: 50em){
+        font-size: 3rem;
+    }
+    @media only screen and (max-width: 47.5em){
+        font-size: 2.5rem;
+        margin: 0;
+        margin-bottom: 7rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      right: 0;
+      height: 2px;
+      width: 130%;
+      background-color: #c63636;
+    }
+  }
+  &__boxes {
+    display: flex;
+    gap: 5rem;
+    margin: 5rem 5rem 7rem 5rem;
+    min-height: 227px;
+    @media only screen and (max-width: 76.8em){
+        margin: 5rem 2rem 5rem 2rem;
+      }
+    @media only screen and (max-width: 50em){
+        flex-wrap: wrap;
+    }
+    @media only screen and (max-width: 47.5em){
+        gap:7rem;
+        
+    }
+    &__box {
+      flex: 1 1 250px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+      position: relative;
+      background-color: rgba(251, 184, 60, 0.625);
+      z-index: 1;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        z-index: -10;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px 0px rgba(21, 35, 98, 0.378);
+      }
+
+      &-bg {
+        background-color: transparent;
+        box-shadow: none;
+        visibility: hidden;
+      }
+
+      &__icon {
+        background-color: rgba(251, 184, 60, 0.946);
+        padding: 8px;
+        position: absolute;
+        top: -27px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &-icon {
+        width: 40px;
+        height: 40px;
+      }
+      &-title {
+        text-align: center;
+        margin-top: 4rem;
+      }
+      &-body {
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 1.4;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

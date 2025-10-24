@@ -1,0 +1,152 @@
+.team {
+  padding: 4rem 10rem 4rem 10rem;
+  position: relative;
+  background-color: rgba(251, 184, 60, 0.055);
+
+  @media only screen and (max-width: 50em){
+     padding: 2rem 10rem;   
+    }
+    @media only screen and (max-width: 47.5em){
+padding: 3rem 3rem;
+    }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    @media only screen and (max-width: 76.8em){
+        font-size: 4rem;
+      }
+    @media only screen and (max-width: 50em){
+     font-size: 3rem;   
+    }
+  }
+  &__person {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    @media only screen and (max-width: 76.8em){
+        gap: 4rem;
+      }
+    @media only screen and (max-width: 50em){
+      flex-direction: column;
+      justify-content: center;
+    }
+    &-left {
+      flex: 0 1 30%;
+
+      &-img {
+        margin: 0 auto;
+        width: 250px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
+          transform: scale(1);
+        }
+      }
+    }
+    &-right {
+      flex: 0 1 65%;
+      padding-right: 5rem;
+
+      h3 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        color: black;
+      }
+      h4 {
+        color: #293462;
+        color: rgb(227, 166, 52);
+        margin-bottom: 3rem;
+      }
+      p {
+        line-height: 1.8;
+      }
+      @media only screen and (max-width: 76.8em){
+        h3{
+          font-size: 2.5rem;
+        }
+        h4{
+          font-size: 1.6rem;
+          margin-bottom: 2rem;
+        }
+       p{
+        font-size: 1.4rem;
+        line-height: 1.9;
+       }
+      }
+      @media only screen and (max-width: 50em){
+        padding: 0;
+        text-align: center;
+      p{
+        line-height: 1.6;
+        text-align: justify;
+      }   
+    }
+    @media only screen and (max-width: 47.5em){
+        h3{
+          font-size: 2.3rem;
+        }
+        h4{
+          font-size: 1.4rem;
+          line-height: 1.6;
+        }
+    }
+    }
+  }
+}
+
+.team__person-hide {
+  display: none;
+}
+
+.arrows {
+
+  &__icon {
+    background-color: rgba(250, 181, 54, 0.725);
+    color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    @media only screen and (max-width: 47.5em){
+        width: 3rem;
+        height: 3rem;
+        box-shadow: none;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:nth-of-type(1) {
+      position: absolute;
+      left: 30px;
+      top: 50%;
+      @media only screen and (max-width: 47.5em){
+        left: 20px;
+        top: 465px;
+    }
+    }
+    &:nth-of-type(2) {
+      position: absolute;
+      top: 50%;
+      right: 50px;
+      @media only screen and (max-width: 47.5em){
+        right: 20px;
+        top:465px;
+    }
+    }
+
+  }
+}
+img.fix-center {
+  object-position: center;
+}

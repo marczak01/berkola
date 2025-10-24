@@ -1,0 +1,485 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-19 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: berkola/settings.py:119
+msgid "English"
+msgstr ""
+
+#: berkola/settings.py:120
+msgid "Polish"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:27
+#: mainapp/templates/mainapp/index.html:65
+msgid "About us"
+msgstr "O nas"
+
+#: mainapp/templates/mainapp/index.html:28
+msgid "Teaching methods"
+msgstr "Metody nauczania"
+
+#: mainapp/templates/mainapp/index.html:29
+msgid "Our team"
+msgstr "Nasz zespół"
+
+#: mainapp/templates/mainapp/index.html:30
+msgid "Pricing"
+msgstr "Oferta"
+
+#: mainapp/templates/mainapp/index.html:33
+msgid "Contact"
+msgstr "Kontakt"
+
+#: mainapp/templates/mainapp/index.html:45
+msgid ""
+"We are an online language school specializing in Polish as a foreign "
+"language."
+msgstr ""
+"Jesteśmy internetową szkołą językową specjalizującą się w nauce języka "
+"polskiego jako obcego."
+
+#: mainapp/templates/mainapp/index.html:48
+msgid ""
+"Master the Polish language with professional teachers. Join our interactive "
+"online lessons and discover Polish culture while improving your "
+"communication skills."
+msgstr ""
+"Opanuj język polski z profesjonalnymi nauczycielami. Dołącz do naszych "
+"interaktywnych lekcji online i odkryj polską kulturę, jednocześnie "
+"doskonaląc swoje umiejętności komunikacyjne."
+
+#: mainapp/templates/mainapp/index.html:50
+msgid "We also offer English lessons for Poles."
+msgstr "Oferujemy również lekcje języka angielskiego dla Polaków."
+
+#: mainapp/templates/mainapp/index.html:52
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+#: mainapp/templates/mainapp/index.html:67
+msgid ""
+"We are a modern online language school that combines a passion for teaching "
+"with experience and proven teaching methods.<br /><br />We teach English to "
+"Poles and Polish to foreigners – of all ages and at all levels. "
+msgstr ""
+"Jesteśmy nowoczesną szkołą językową online, która łączy pasję do nauczania z "
+"doświadczeniem i sprawdzonymi metodami dydaktycznymi.<br /><br />Uczymy "
+"języka angielskiego Polaków oraz języka polskiego obcokrajowców – w każdym "
+"wieku i na każdym poziomie zaawansowania."
+
+#: mainapp/templates/mainapp/index.html:70
+msgid ""
+"Our goal is effective, engaging, and practical language learning — without "
+"stress or boredom."
+msgstr "Naszym celem jest efektywna, angażująca i praktyczna nauka języków obcych — bez stresu i nudy."
+
+#: mainapp/templates/mainapp/index.html:75
+msgid "Who are our courses for?"
+msgstr "Dla kogo są nasze kursy"
+
+#: mainapp/templates/mainapp/index.html:81
+msgid "For children from 7 years of age"
+msgstr "Dla dzieci od 7. roku życia"
+
+#: mainapp/templates/mainapp/index.html:84
+msgid "For primary and secondary school students"
+msgstr "Dla uczniów szkół podstawowych i średnich"
+
+#: mainapp/templates/mainapp/index.html:86
+msgid "For students"
+msgstr "Dla studentów"
+
+#: mainapp/templates/mainapp/index.html:88
+msgid "For adults learning for work or pleasure"
+msgstr "Dla dorosłych uczących się dla pracy lub przyjemności"
+
+#: mainapp/templates/mainapp/index.html:91
+msgid "For companies and organizations – language courses for employees"
+msgstr "Dla firm i organizacji – kursy językowe dla pracowników"
+
+#: mainapp/templates/mainapp/index.html:105
+msgid "Why Learn Polish With Us?"
+msgstr "Dlaczego warto uczyć się polskiego z nami?"
+
+#: mainapp/templates/mainapp/index.html:109
+msgid "100%% online Polish courses – study anywhere in the world"
+msgstr "Kursy języka polskiego w 100% online – studiuj w dowolnym miejscu na świecie"
+
+#: mainapp/templates/mainapp/index.html:113
+msgid "Qualified and experienced Polish teachers"
+msgstr "Wykwalifikowani i doświadczeni nauczyciele języka polskiego"
+
+#: mainapp/templates/mainapp/index.html:118
+msgid "Tailored courses for beginners, intermediate, and advanced learners"
+msgstr ""
+"Kursy dostosowane do potrzeb początkujących, średnio zaawansowanych i "
+"zaawansowanych"
+
+#: mainapp/templates/mainapp/index.html:123
+msgid "Focus on real-life communication and cultural context"
+msgstr "Skupienie się na komunikacji w życiu realnym i kontekście kulturowym"
+
+#: mainapp/templates/mainapp/index.html:127
+msgid "Flexible schedules to fit your lifestyle"
+msgstr "Elastyczne harmonogramy dopasowane do Twojego stylu życia"
+
+#: mainapp/templates/mainapp/index.html:134
+msgid "Our teaching methods"
+msgstr "Nasze metody nauczania"
+
+#: mainapp/templates/mainapp/index.html:149
+msgid "Communication first"
+msgstr "Komunikacja przede wszystkim"
+
+#: mainapp/templates/mainapp/index.html:151
+msgid ""
+"We focus on speaking from the very first lesson because we believe it's the "
+"most effective way to speak the language fluently."
+msgstr ""
+"Stawiamy na mówienie od pierwszych zajęć bo wierzymy, że to "
+"najskuteczniejsza droga do swobodnego posługiwania się językiem."
+
+#: mainapp/templates/mainapp/index.html:178
+msgid "Language immersion method"
+msgstr "Metoda immersji językowej"
+
+#: mainapp/templates/mainapp/index.html:180
+msgid ""
+"Students immerse themselves in the language through interactive exercises, "
+"dialogues, and authentic materials."
+msgstr ""
+"Uczniowie „zanurzają się” w języku przez interaktywne ćwiczenia, dialogi i "
+"materiały autentyczne."
+
+#: mainapp/templates/mainapp/index.html:203
+msgid "Learn Flexible and Convenient"
+msgstr "Poznaj elastyczność i wygodę"
+
+#: mainapp/templates/mainapp/index.html:206
+msgid ""
+"No matter where you live, you can learn with us. Our online lessons take "
+"place on <span>Zoom</span>, <span>Skype</span>, or <span>Google Meet</span>, "
+"giving you direct contact with your teacher and interactive learning tools."
+msgstr ""
+"Niezależnie od tego, gdzie mieszkasz, możesz uczyć się z nami. Nasze lekcje "
+"online odbywają się na <span>Zoomie</span>, <span>Skype</span> lub "
+"<span>Google Meet</span>, zapewniając bezpośredni kontakt z nauczycielem i "
+"interaktywne narzędzia do nauki."
+
+#: mainapp/templates/mainapp/index.html:224
+msgid "Modern tools"
+msgstr "Nowoczesne narzędzia"
+
+#: mainapp/templates/mainapp/index.html:226
+msgid ""
+"We use video lesson platforms, interactive materials, and applications that "
+"support vocabulary and grammar learning."
+msgstr ""
+"Korzystamy z platform do wideolekcji, interaktywnych materiałów, aplikacji "
+"wspierających naukę słownictwa i gramatyki."
+
+#: mainapp/templates/mainapp/index.html:242
+msgid "Personalization"
+msgstr "Personalizacja"
+
+#: mainapp/templates/mainapp/index.html:244
+msgid ""
+"Every student has different needs, so we tailor the program to the student's "
+"level and goals."
+msgstr ""
+"Każdy uczeń ma inne potrzeby, dlatego dopasowujemy program do poziomu i "
+"celów kursanta."
+
+#: mainapp/templates/mainapp/index.html:275
+msgid "Regular feedback and progress tests"
+msgstr "Regularny feedback i testy postępów"
+
+#: mainapp/templates/mainapp/index.html:278
+msgid ""
+"Students always know what stage they are at and have constant contact with "
+"their teacher."
+msgstr ""
+"Uczniowie zawsze wiedzą, na jakim są etapie i mają stały kontakt z lektorem."
+
+#: mainapp/templates/mainapp/index.html:315
+msgid "Our teachers"
+msgstr "Nasi lektorzy"
+
+#: mainapp/templates/mainapp/index.html:325
+msgid ""
+"School Owner / Philologist / Educator / Teacher of Polish as a Foreign "
+"Language"
+msgstr ""
+"Właścicielka szkoły / Filolog / Pedagog / Lektor języka polskiegojako obcego"
+
+#: mainapp/templates/mainapp/index.html:328
+msgid ""
+"The owner of a language school has been working for years with young people "
+"and adults from around the world who want to better understand both the "
+"Polish language and culture. She is a native Polish speaker. She has "
+"extensive experience in preparing students for certification in Polish as a "
+"foreign language from levels A2 to C1, with students successfully passing "
+"the exams. She holds a bachelor's degree in English Philology, specializing "
+"in teaching, which provides her with pedagogical and methodological training "
+"in teaching foreign languages. She speaks English, Spanish, and Turkish."
+msgstr ""
+"Właścicielka szkoły językowej od lat pracująca z młodzieżą i dorosłymi z "
+"całego świata, którzy chcą poznać lepiej zarówno język jak i kulturę Polski. "
+"Native speaker języka polskiego. Posiada duże doświadczenie w przygotowaniu "
+"do zdobycia certyfikatu znajomości języka polskiego jako obcego od poziomu "
+"A2 do C1 - uczniowie z powodzeniem otrzymują pozytywny wynik egzaminów. "
+"Absolwentka studiów licencjackich na kierunku filologia angielska "
+"specjalność nauczycielska, dzięki czemu posiada przygotowanie pedagogiczne "
+"oraz metodyczne w nauczaniu języków obcych. Zna angielski, hiszpański i "
+"turecki."
+
+#: mainapp/templates/mainapp/index.html:340
+msgid "Philologist / Pedagogue / English teacher"
+msgstr "Filolog / Pedagog / Lektor języka angielskiego"
+
+#: mainapp/templates/mainapp/index.html:342
+msgid ""
+"A graduate of a BA in English Philology, specializing in teaching. An "
+"English teacher with 10 years of experience in tutoring, she specializes in "
+"individualized approaches to students and developing their language skills. "
+"She lived in Scotland for 12 years, where she completed an HNC in Early "
+"Education and Childcare, gaining knowledge in education and methodologies "
+"for working with children and young people. She conducts individual, group, "
+"and paired classes for children, adolescents, and adults. She also "
+"specializes in preparing young people for exams, providing a solid language "
+"foundation, a clear learning plan, and a friendly atmosphere that fosters "
+"consistency and self-confidence."
+msgstr ""
+"Absolwentka studiów licencjackich na kierunku filologia angielska "
+"specjalność nauczycielska. Lektorka języka angielskiego z 10-letnim "
+"doświadczeniem w prowadzeniu korepetycji, specjalizująca się w indywidualnym "
+"podejściu do ucznia i rozwijaniu jego kompetencji językowych. Przez 12 lat "
+"mieszkała w szkocji, gdzie ukończyła HNC Early Education and Childcare, "
+"zdobywając wiedzę z zakresu edukacji i metodyki pracy z dziećmi oraz "
+"młodzieżą. Prowadzi zajęcia indywidualne, grupowe oraz w parach dla dzieci, "
+"dzieci młodzieży i dorosłych. Specjalizuje się także w przygotowaniu "
+"młodzieży do egzaminów, zapewniając solidne podstawy językowe, jasny plan "
+"nauki i przyjazną atmosferę sprzyjającą systematyczności i pewności siebie."
+
+#: mainapp/templates/mainapp/index.html:348
+msgid "Course offer"
+msgstr "Oferta kursów"
+
+#: mainapp/templates/mainapp/index.html:349
+msgid "Polish courses for foreigners"
+msgstr "Kursy języka polskiego dla obcokrajowców"
+
+#: mainapp/templates/mainapp/index.html:354
+msgid "Polish from scratch"
+msgstr "Polski od podstaw"
+
+#: mainapp/templates/mainapp/index.html:362
+msgid "Learning basic language structures"
+msgstr "Nauka podstawowych struktur językowych"
+
+#: mainapp/templates/mainapp/index.html:363
+msgid "Everyday and situational vocabulary"
+msgstr "Słownictwo codzienne i sytuacyjne"
+
+#: mainapp/templates/mainapp/index.html:364
+msgid "Pronunciation and intonation exercises"
+msgstr "Ćwiczenia z wymowy i intonacji"
+
+#: mainapp/templates/mainapp/index.html:366
+msgid "Simple dialogues from everyday life (shopping, restaurants, travel)"
+msgstr "Proste dialogi z życia codziennego (zakupy, restauracja, podróże)"
+
+#: mainapp/templates/mainapp/index.html:369
+#: mainapp/templates/mainapp/index.html:388
+#: mainapp/templates/mainapp/index.html:406
+#: mainapp/templates/mainapp/index.html:432
+#: mainapp/templates/mainapp/index.html:458
+#: mainapp/templates/mainapp/index.html:479
+#: mainapp/templates/mainapp/index.html:497
+#: mainapp/templates/mainapp/index.html:523
+msgid "Sign up"
+msgstr "Dołącz"
+
+#: mainapp/templates/mainapp/index.html:375
+msgid "advanced <br />level "
+msgstr "poziom <br /> zaawansowany"
+
+#: mainapp/templates/mainapp/index.html:384
+msgid "Grammar, conversation, writing, and text comprehension"
+msgstr "Gramatyka, konwersacje, pisanie i rozumienie tekstu"
+
+#: mainapp/templates/mainapp/index.html:385
+msgid "Preparation for language certifications"
+msgstr "Przygotowanie do certyfikatów językowych"
+
+#: mainapp/templates/mainapp/index.html:386
+msgid "Individualized approach and language feedback"
+msgstr "Indywidualne podejście i feedback językowy"
+
+#: mainapp/templates/mainapp/index.html:394
+msgid "Polish<br />at work"
+msgstr "Polski<br />w pracy"
+
+#: mainapp/templates/mainapp/index.html:403
+msgid "Industry Vocabulary"
+msgstr "Słownictwo branżowe"
+
+#: mainapp/templates/mainapp/index.html:404
+msgid "Communication in a Professional Environment"
+msgstr "Komunikacja w środowisku zawodowym"
+
+#: mainapp/templates/mainapp/index.html:413
+#: mainapp/templates/mainapp/index.html:504
+msgid "Beginner group"
+msgstr "Grupa początkująca"
+
+#: mainapp/templates/mainapp/index.html:417
+#: mainapp/templates/mainapp/index.html:508
+msgid "Advanced group"
+msgstr "Grupa zaawansowana"
+
+#: mainapp/templates/mainapp/index.html:421
+#: mainapp/templates/mainapp/index.html:512
+msgid "Groups of max 5 people"
+msgstr "Grupy max 5 osób"
+
+#: mainapp/templates/mainapp/index.html:423
+msgid ""
+"Classes begin in mid-September and are held twice a week for 50 minutes "
+"each, lasting 14 weeks. "
+msgstr ""
+"Zajęcia zaczynają się od połowy września i odbywają się 2 razy w tygodniu po "
+"50minut i trwają 14 tygodni."
+
+#: mainapp/templates/mainapp/index.html:428
+#: mainapp/templates/mainapp/index.html:435
+#: mainapp/templates/mainapp/index.html:519
+#: mainapp/templates/mainapp/index.html:526
+msgid "month"
+msgstr "miesiąc"
+
+#: mainapp/templates/mainapp/index.html:429
+#: mainapp/templates/mainapp/index.html:436
+#: mainapp/templates/mainapp/index.html:520
+#: mainapp/templates/mainapp/index.html:527
+msgid "course"
+msgstr "kurs"
+
+#: mainapp/templates/mainapp/index.html:441
+msgid "English courses for Poles"
+msgstr "Kursy języka angielskiego dla Polaków"
+
+#: mainapp/templates/mainapp/index.html:446
+msgid "children<br />(classes 1-3)"
+msgstr "dzieci<br />(klasy 1-3)"
+
+#: mainapp/templates/mainapp/index.html:454
+msgid "Online classes in small groups or individually"
+msgstr "Zajęcia online w małych grupach lub indywidualnie"
+
+#: mainapp/templates/mainapp/index.html:455
+msgid "Learning through play, language games, and songs"
+msgstr "Nauka poprzez zabawę, gry językowe i piosenki"
+
+#: mainapp/templates/mainapp/index.html:456
+msgid "Homework help"
+msgstr "Pomoc w odrabianiu prac domowych"
+
+#: mainapp/templates/mainapp/index.html:464
+msgid "youth and<br />students"
+msgstr "dla młodzieży <br/> i uczniów szkół"
+
+#: mainapp/templates/mainapp/index.html:473
+msgid "School tutoring (grades 1–8 and high school)"
+msgstr "Korepetycje szkolne (klasy 1–8 oraz szkoły średnie)"
+
+#: mainapp/templates/mainapp/index.html:474
+msgid "Preparation for the eighth-grade exam and the Matura exam"
+msgstr "Przygotowanie do egzaminu ósmoklasisty i matury"
+
+#: mainapp/templates/mainapp/index.html:476
+msgid "Activities supporting conversation and vocabulary development"
+msgstr "Zajęcia wspierające konwersacje i rozwój słownictwa"
+
+#: mainapp/templates/mainapp/index.html:484
+msgid "adults"
+msgstr "Dla dorosłych"
+
+#: mainapp/templates/mainapp/index.html:492
+msgid "Courses from A1 to C1"
+msgstr "Kursy od poziomu A1 do C1"
+
+#: mainapp/templates/mainapp/index.html:493
+msgid "Business English"
+msgstr "Angielski w pracy (Business English)"
+
+#: mainapp/templates/mainapp/index.html:494
+msgid "Exam Preparation"
+msgstr "Przygotowanie do egzaminów"
+
+#: mainapp/templates/mainapp/index.html:495
+msgid "Conversations with a Teacher"
+msgstr "Konwersacje z lektorem"
+
+#: mainapp/templates/mainapp/index.html:514
+msgid ""
+"Classes begin in mid-September and are held twice a week for 60 minutes "
+"each, lasting 14 weeks."
+msgstr ""
+"Zajęcia zaczynają się od połowy września i odbywają się 2 razy w tygodniu po "
+"60minut i trwają 14 tygodni."
+
+#: mainapp/templates/mainapp/index.html:550
+msgid "Online Foreign Language School"
+msgstr "Szkoła Języków Obcych Online"
+
+#: mainapp/templates/mainapp/index.html:551
+msgid "Polish and English"
+msgstr "Polski i Angielski"
+
+#: mainapp/templates/mainapp/index.html:561
+msgid "School owner / Philologist / Pedagogue / Polish language teacher"
+msgstr "Właścicielka szkoły / Filolog / Pedagog / Lektor języka polskiego"
+
+#: mainapp/templates/mainapp/index.html:568
+msgid "Contact with us"
+msgstr "Skontaktuj się z nami"
+
+#: mainapp/templates/mainapp/index.html:570
+msgid "Full name"
+msgstr "Imię i nazwisko"
+
+#: mainapp/templates/mainapp/index.html:571
+msgid "Email"
+msgstr ""
+
+#: mainapp/templates/mainapp/index.html:573
+msgid "Phone number"
+msgstr "Numer telefonu"
+
+#: mainapp/templates/mainapp/index.html:574
+msgid "Your message"
+msgstr "Twoja wiadomość"
+
+#: mainapp/templates/mainapp/index.html:575
+msgid "Send message"
+msgstr "Wyślij wiadomość"
